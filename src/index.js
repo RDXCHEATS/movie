@@ -10,7 +10,7 @@ import { Provider } from 'react-redux';
 import { store } from './store/store';
 
 /** Setup Axios */
-axios.defaults.baseURL = "http://movieslust.free.nf"; // Base URL for your API
+axios.defaults.baseURL = "http://localhost"; // Base URL for your API
 axios.defaults.headers.common['Content-Type'] = 'application/json';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
